@@ -385,30 +385,29 @@
               id="mail"
               placeholder="E-mail"
             />
-            <div class="btn-footer">
-              <button class="btn-footer-form" type="submit">
-                Subscribe
-                <svg class="icon-footer-form" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+
+            <button class="btn-footer-form" type="submit">
+              Subscribe
+              <svg class="icon-footer-form" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="btn-modal" type="button" data-modal-close>
-        <svg class="icon-modal" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
-      <div>
+      <div class="modal">
+        <button class="btn-modal" type="button" data-modal-close>
+          <svg class="icon-modal" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-field">
-            <label class="modal-label" for="name">Name</label>
+            <label class="modal-label modal-name" for="name">Name</label>
             <div class="modal-form-input-wrapper">
               <input
                 class="modal-form-input"
@@ -463,13 +462,21 @@
             ></textarea>
           </div>
           <div class="checkbox-field">
-            <input class="input-checkbox visually-hidden " type="checkbox" name="checkbox" id="checkbox" value="true" />
+            <input
+              class="input-checkbox visually-hidden"
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              value="true"
+            />
             <label class="check-text" for="checkbox">
               <span class="checkbox-icon"
                 ><svg class="icon-checkbox" width="10" height="10">
-                  <use href="./images/icons.svg#icon-icon-active-state"></use></svg
+                  <use
+                    href="./images/icons.svg#icon-icon-active-state"
+                  ></use></svg
               ></span>
-              I accept the terms and conditions of the 
+              I accept the terms and conditions of the
               <a href="" class="modal-link">Privacy Policy</a></label
             >
           </div>
