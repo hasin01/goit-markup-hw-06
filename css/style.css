@@ -568,6 +568,7 @@ body {
 }
 .modal-form-input {
   outline: transparent;
+  
 }
 .modal-form-input:focus {
   border-color: var(--logo-text-color);
@@ -704,6 +705,7 @@ body {
   margin-bottom: 16px;
 }
 .btn-footer-form {
+  height: 40px;
   background: var(--logo-text-color);
   border-radius: 4px;
   display: flex;
@@ -726,9 +728,10 @@ line-height: 2;
 }
 .input-form-footer {
   width: 264px;
+  height: 40px;
   margin-right: 16px;
   background: transparent;
-  border: 1px solid var(--heading-title-color);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: transparent;
@@ -739,6 +742,7 @@ line-height: 2;
   font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.6);
 }
 .input-form-footer:focus {
   border: 1px solid var(--logo-text-color);
